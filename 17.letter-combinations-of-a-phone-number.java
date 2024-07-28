@@ -46,10 +46,10 @@ class Solution {
             put('9', "wxyz");
         }}; 
         
-        fun(res,button, digits, 0, new StringBuffer());
+        dfs(res,button, digits, 0, new StringBuffer());
         return res;
     }
-    public void fun(List<String> res,Map<Character,String> button,String digits,int count,StringBuffer word){
+    public void dfs(List<String> res,Map<Character,String> button,String digits,int count,StringBuffer word){
         if (word.length()==digits.length()) {
             res.add(word.toString());
             return;
@@ -59,7 +59,7 @@ class Solution {
         String buff=button.get(character);
         for(int i=0;i<buff.length();i++){
             word.append(buff.charAt(i));
-            fun(res,button, digits, count+1, word);
+            dfs(res,button, digits, count+1, word);
             word.deleteCharAt(word.length()-1);
         }
     }
