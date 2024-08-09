@@ -22,11 +22,11 @@
 // #define true 1
 // #define false 0
 // #define NULL ((void*)0)
-//  struct TreeNode {
-//       int val;
-//       struct TreeNode *left;
-//       struct TreeNode *right;
-//   };
+ struct TreeNode {
+      int val;
+      struct TreeNode *left;
+      struct TreeNode *right;
+  };
 bool dfs(struct TreeNode*,struct TreeNode*);
 bool isSameTree(struct TreeNode* p, struct TreeNode* q) {
     return dfs(p,q);
