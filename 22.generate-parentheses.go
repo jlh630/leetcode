@@ -9,6 +9,10 @@
 
 // @lcpr-template-end
 // @lc code=start
+package main
+
+import "strings"
+
 func generateParenthesis(n int) []string {
 	res := make([]string, 0)
 	var curr strings.Builder
@@ -48,4 +52,3 @@ func generateParenthesis(n int) []string {
 // @lcpr case=end
 
 */
-

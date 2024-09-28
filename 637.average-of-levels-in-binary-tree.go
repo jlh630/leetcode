@@ -25,6 +25,7 @@
  *     Right *TreeNode
  * }
  */
+
 func averageOfLevels(root *TreeNode) []float64 {
 	count := []int{}
 	sums := []int{}

@@ -17,6 +17,8 @@
  *     Right *TreeNode
  * }
  */
+package main
+
 func diameterOfBinaryTree(root *TreeNode) int {
 	var dfs func(root *TreeNode) int
 	res := 0
@@ -49,4 +51,3 @@ func diameterOfBinaryTree(root *TreeNode) int {
 // @lcpr case=end
 
 */
-

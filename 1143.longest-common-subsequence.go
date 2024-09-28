@@ -14,6 +14,8 @@
 //	| dfs(i-1,j-1)+1  s1[i]==s2[i]
 //	|
 //	| max(dfs(i-1,j),dfs(i,j-1))  s1[i]!=s[i]
+package main
+
 func longestCommonSubsequence(text1 string, text2 string) int {
 	n := len(text1) + 1
 	m := len(text2) + 1
@@ -49,4 +51,3 @@ func longestCommonSubsequence(text1 string, text2 string) int {
 // @lcpr case=end
 
 */
-

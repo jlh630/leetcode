@@ -17,6 +17,10 @@
  *     Right *TreeNode
  * }
  */
+package main
+
+import "math"
+
 func isValidBST(root *TreeNode) bool {
 	var dfs func(*TreeNode, int, int) bool
 	dfs = func(root *TreeNode, minNum int, maxNum int) bool {
@@ -43,4 +47,3 @@ func isValidBST(root *TreeNode) bool {
 // @lcpr case=end
 
 */
-

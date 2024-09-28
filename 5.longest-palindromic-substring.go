@@ -9,6 +9,8 @@
 
 // @lcpr-template-end
 // @lc code=start
+package main
+
 func longestPalindrome(s string) string {
 	n := len(s)
 	if n < 2 {
@@ -67,4 +69,3 @@ func longestPalindrome(s string) string {
 // @lcpr case=end
 
 */
-

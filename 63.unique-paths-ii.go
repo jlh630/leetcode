@@ -9,6 +9,8 @@
 
 // @lcpr-template-end
 // @lc code=start
+package main
+
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 
 	n := len(obstacleGrid)
@@ -50,4 +52,3 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 // @lcpr case=end
 
 */
-

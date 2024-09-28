@@ -16,6 +16,8 @@
  *     Next *ListNode
  * }
  */
+package main
+
 func reverseBetween(head *ListNode, left int, right int) *ListNode {
 	thead := &ListNode{Val: -1}
 	thead.Next = head
@@ -46,4 +48,3 @@ func reverseBetween(head *ListNode, left int, right int) *ListNode {
 // @lcpr case=end
 
 */
-

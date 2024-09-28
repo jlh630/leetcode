@@ -10,6 +10,8 @@
 // @lcpr-template-end
 // @lc code=start
 // 贪心
+package main
+
 func canJump(nums []int) bool {
 	n := len(nums)
 	if n < 2 {
@@ -38,4 +40,3 @@ func canJump(nums []int) bool {
 // @lcpr case=end
 
 */
-

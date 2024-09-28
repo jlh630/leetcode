@@ -17,6 +17,8 @@
  *     Right *TreeNode
  * }
  */
+package main
+
 func pathSum(root *TreeNode, targetSum int) int {
 	var dfs func(*TreeNode, int)
 	var dfsii func(*TreeNode)
@@ -59,4 +61,3 @@ func pathSum(root *TreeNode, targetSum int) int {
 // @lcpr case=end
 
 */
-

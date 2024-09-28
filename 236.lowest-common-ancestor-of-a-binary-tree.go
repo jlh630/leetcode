@@ -17,6 +17,8 @@
  *     Right *TreeNode
  * }
  */
+package main
+
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	/**
 	    1. 当前是空节点直接返回当前节点
@@ -60,4 +62,3 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 // @lcpr case=end
 
 */
-

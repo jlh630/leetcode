@@ -17,6 +17,8 @@
  *     Right *TreeNode
  * }
  */
+package main
+
 func kthSmallest(root *TreeNode, k int) int {
 	res := -1
 	num := 0
@@ -51,4 +53,3 @@ func kthSmallest(root *TreeNode, k int) int {
 // @lcpr case=end
 
 */
-

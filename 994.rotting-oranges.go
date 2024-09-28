@@ -10,6 +10,8 @@
 // @lcpr-template-end
 // @lc code=start
 // bfs
+package main
+
 func orangesRotting(grid [][]int) int {
 	n := len(grid)
 	m := len(grid[0])
@@ -76,4 +78,3 @@ func orangesRotting(grid [][]int) int {
 // @lcpr case=end
 
 */
-

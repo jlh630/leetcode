@@ -9,6 +9,10 @@
 
 // @lcpr-template-end
 // @lc code=start
+package main
+
+import "sort"
+
 func merge(intervals [][]int) [][]int {
 	sort.Slice(intervals, func(i, j int) bool {
 		return intervals[i][0] < intervals[j][0]
@@ -39,4 +43,3 @@ func merge(intervals [][]int) [][]int {
 // @lcpr case=end
 
 */
-

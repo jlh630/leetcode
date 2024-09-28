@@ -10,6 +10,8 @@
 // @lcpr-template-end
 // @lc code=start
 // 动态规划
+package main
+
 func uniquePaths(m int, n int) int {
 	if n == 1 || m == 1 {
 		return 1
@@ -52,4 +54,3 @@ func uniquePaths(m int, n int) int {
 // @lcpr case=end
 
 */
-

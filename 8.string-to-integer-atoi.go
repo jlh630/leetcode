@@ -9,6 +9,10 @@
 
 // @lcpr-template-end
 // @lc code=start
+package main
+
+import "math"
+
 func myAtoi(s string) int {
 	flag := 1
 	zero := false
@@ -69,4 +73,3 @@ func myAtoi(s string) int {
 // @lcpr case=end
 
 */
-

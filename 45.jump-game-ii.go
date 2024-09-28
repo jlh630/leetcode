@@ -9,6 +9,8 @@
 
 // @lcpr-template-end
 // @lc code=start
+package main
+
 func jump(nums []int) int {
 	step := 0
 	end := 0
@@ -35,4 +37,3 @@ func jump(nums []int) int {
 // @lcpr case=end
 
 */
-

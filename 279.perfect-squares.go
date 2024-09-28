@@ -10,6 +10,10 @@
 // @lcpr-template-end
 // @lc code=start
 // 动态规划 跟零钱兑换一样 不过需要自己算能兑换的零钱
+package main
+
+import "math"
+
 func numSquares(n int) int {
 	squareNum := int(math.Sqrt(float64(n)))
 	dp := make([]int, n+1)
@@ -41,4 +45,3 @@ func numSquares(n int) int {
 // @lcpr case=end
 
 */
-

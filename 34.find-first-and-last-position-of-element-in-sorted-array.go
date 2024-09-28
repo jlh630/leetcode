@@ -9,6 +9,8 @@
 
 // @lcpr-template-end
 // @lc code=start
+package main
+
 func searchRange(nums []int, target int) []int {
 	left := 0
 	right := len(nums) - 1
@@ -65,4 +67,3 @@ func searchRange(nums []int, target int) []int {
 // @lcpr case=end
 
 */
-

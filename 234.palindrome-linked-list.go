@@ -16,6 +16,8 @@
  *     Next *ListNode
  * }
  */
+package main
+
 func isPalindrome(head *ListNode) bool {
 	slow := head
 	fast := head
@@ -64,4 +66,3 @@ func isPalindrome(head *ListNode) bool {
 // @lcpr case=end
 
 */
-

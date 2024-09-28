@@ -17,6 +17,8 @@
  *     Right *TreeNode
  * }
  */
+package main
+
 func inorderTraversal(root *TreeNode) []int {
 	var dfs func(*TreeNode)
 	res := make([]int, 0)
@@ -48,4 +50,3 @@ func inorderTraversal(root *TreeNode) []int {
 // @lcpr case=end
 
 */
-

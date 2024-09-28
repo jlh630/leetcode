@@ -10,6 +10,8 @@
 // @lcpr-template-end
 // @lc code=start
 // 动态规划
+package main
+
 func minPathSum(grid [][]int) int {
 	n := len(grid)
 	m := len(grid[0])
@@ -46,4 +48,3 @@ func minPathSum(grid [][]int) int {
 // @lcpr case=end
 
 */
-

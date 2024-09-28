@@ -9,6 +9,8 @@
 
 // @lcpr-template-end
 // @lc code=start
+package main
+
 func searchInsert(nums []int, target int) int {
 	n := len(nums)
 	left := 0
@@ -43,4 +45,3 @@ func searchInsert(nums []int, target int) int {
 // @lcpr case=end
 
 */
-

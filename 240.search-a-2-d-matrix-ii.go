@@ -9,6 +9,8 @@
 
 // @lcpr-template-end
 // @lc code=start
+package main
+
 func searchMatrix(matrix [][]int, target int) bool {
 	curri := 0
 	curry := len(matrix[0]) - 1
@@ -36,4 +38,3 @@ func searchMatrix(matrix [][]int, target int) bool {
 // @lcpr case=end
 
 */
-

@@ -13,6 +13,10 @@
 // |   min (dfs(amount-coins[i],coins[i])+1,dfs(amount,coins[i-1]))  amount>0
 // |       0                                                         amount==0
 // |       math.MaxInt                                             coins[i] >amount
+package main
+
+import "math"
+
 func coinChange(coins []int, amount int) int {
 	dp := make([]int, amount+1)
 	for i := 0; i < amount+1; i++ {
@@ -49,4 +53,3 @@ func coinChange(coins []int, amount int) int {
 // @lcpr case=end
 
 */
-
