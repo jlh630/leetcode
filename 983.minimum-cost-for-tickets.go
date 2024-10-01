@@ -11,21 +11,15 @@
 // @lc code=start
 func mincostTickets(days []int, costs []int) int {
 	n := len(days)
-	maxDay := days[n-1] + 1
+	maxDay := days[n-1] + 31
 	dp := make([]int, maxDay)
 	daysbool := make([]bool, maxDay)
 	for i := range days {
-		daysbool[days[i]] = true
+		daysbool[days[i]+30] = true
 	}
-	for i := 1; i < maxDay; i++ {
+	for i := 31; i < maxDay; i++ {
 		if daysbool[i] {
-			if i < 30 && i >= 7 {
-				dp[i] = min(dp[i-1]+costs[0], dp[i-7]+costs[1], dp[0]+costs[2])
-			} else if i >= 30 {
-				dp[i] = min(dp[i-1]+costs[0], dp[i-7]+costs[1], dp[i-30]+costs[2])
-			} else {
-				dp[i] = min(dp[i-1]+costs[0], dp[0]+costs[1], dp[0]+costs[2])
-			}
+			dp[i] = min(dp[i-1]+costs[0], dp[i-7]+costs[1], dp[i-30]+costs[2])
 		} else {
 			dp[i] = dp[i-1]
 		}
