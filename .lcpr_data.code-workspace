@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../.lcpr_data"
+		},
+		{
+			"name": "leetcode",
+			"path": ".."
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
